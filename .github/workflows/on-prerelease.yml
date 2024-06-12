@@ -9,6 +9,8 @@ on:
     types:
       - prereleased
 
+permissions: read-all
+
 env:
   ARTIFACTS_API_KEY: ${{ secrets.AZURE_ARTIFACTS_PERSONAL_ACCESS_TOKEN }}
   GITHUB_TOKEN: ${{ secrets.PAT_ATTACH_TO_RELEASE }}
